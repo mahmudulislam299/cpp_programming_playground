@@ -1,3 +1,19 @@
+/*
+
+																	polymorphism
+											--------------------------------------------
+											|																					 |
+											^																					 ^
+							compile time																		Run Time
+				------------------------                    ------------------------
+				|												|										|                      |
+				^												^                   ^                      ^
+	Operator 									Function 							Virtual 							Function 
+	overloading   						Overloading						Function							overridding			
+
+*/
+
+
 #include <iostream>
 using namespace std;
 
@@ -44,7 +60,7 @@ int main()
 	
 	derived1 d1;
 	d1.show();
-	d1.showForderived1();
+	// d1.showForderived1();
 
 	derived2 d2;
 	d2.show();

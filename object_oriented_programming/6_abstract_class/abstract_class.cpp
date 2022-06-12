@@ -29,9 +29,11 @@ class Person // now this is abstract class bcoz of pure virtual function
 {
 public:
 	virtual void give() = 0 ; //this is a pure virtual function
-	// {
-	// 	cout <<"Bun"<<endl;
-	// }
+
+	void give2()
+	{
+		cout <<"Bun2"<<endl;
+	}
 };
 
 class Boy : public Person
@@ -40,6 +42,11 @@ public:
 	void give()
 	{
 		cout << "Brown Bun" << endl;
+	}
+
+	void give2()
+	{
+		cout << "Brown Bun2" << endl;
 	}
 	
 	void hello()
@@ -55,6 +62,11 @@ public:
 	{
 		cout << "pink Bun" << endl;
 	}
+
+	void give2()
+	{
+		cout << "pink Bun2" << endl;
+	}
 };
 
 
@@ -68,10 +80,12 @@ int main()
 
 	ptr = &b1;
 	ptr->give();
+	ptr->give2();
 	// ptr->hello(); //this is not possible bcoz base class ptr can not call derived class function
 
 	ptr = &g1;
 	ptr->give();
+	ptr->give2();
 
 	return 0;
 }

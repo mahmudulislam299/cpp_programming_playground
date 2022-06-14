@@ -27,7 +27,7 @@ public:
 class Base2
 {
 public:
-	virtual ~Base2()
+	virtual ~Base2() // <--------------------- for this virtual entire object will be deleted
 	{
 		cout << "base2 class destroyed" << endl;
 		cout << "for the virtual destructor full object deleted" << endl;

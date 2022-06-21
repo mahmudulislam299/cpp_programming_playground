@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jun 05 12:22:10 2022
+# Make data base, printed on Tue Jun 21 09:23:05 2022
 
 # Variables
 
@@ -25,9 +25,9 @@ IDF_PATH = C:\Users\mahmu\esp\esp-idf
 # environment
 LOCALAPPDATA = C:\Users\mahmu\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-244222d2-938c-4ae6-93ec-5270fcfaf0bd-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-d9b5bbde-f386-49eb-8907-08bfb44922a2-sock
 # environment
-VSCODE_CWD = D:\all_learning\programming\cpp_programming_playground\object_oriented_programming
+VSCODE_CWD = C:\Users\mahmu\AppData\Local\Programs\Microsoft VS Code
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
@@ -41,7 +41,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_240_NKUNQCXVEOPKRZHI
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13472_WUOFBPTVTOOPXSET
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -57,7 +57,7 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\mahmu\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+VSCODE_CODE_CACHE_PATH = C:\Users\mahmu\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 LANG = C
 # default
@@ -99,14 +99,13 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 240
+VSCODE_PID = 13472
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
 *F = $(notdir $*)
 # automatic
-<D = $(patsubst %/,%, 
-$(patsubst %\,%,$(dir $<)))
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
 # environment
@@ -134,7 +133,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet\;C:\tools\dart-sdk;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\mahmu\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Users\mahmu\.cargo\bin;C:\Users\mahmu\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\mahmu\AppData\Local\Programs\Python\Python39\;C:\Users\mahmu\AppData\Local\Microsoft\WindowsApps;C:\Users\mahmu\AppData\Local\Programs\Microsoft VS Code\bin;G:\arduino-cli_0.21.1_Windows_64bit;C:\MinGW\bin;C:\flutter\bin;C:\Users\mahmu\.dotnet\tools;C:\Users\mahmu\AppData\Roaming\npm;C:\Espressif/tools/xtensa-esp32-elf-clang/esp-14.0.0-20220415-x86_64-pc-windows-msvc/bin/;C:\Users\mahmu/AppData/Local/Programs/jaguar;C:\Espressif\tools\idf-exe\1.0.3;C:\Users\mahmu\esp\Espressif/tools/xtensa-esp32-elf-clang/esp-14.0.0-20220415-x86_64-pc-windows-msvc/bin/;C:\Users\mahmu\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;
+PATH = C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet\;C:\tools\dart-sdk;C:\Program Files\Git\cmd;C:\Users\mahmu\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Program Files\nodejs\;C:\Users\mahmu\.cargo\bin;C:\Users\mahmu\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\mahmu\AppData\Local\Programs\Python\Python39\;C:\Users\mahmu\AppData\Local\Microsoft\WindowsApps;C:\Users\mahmu\AppData\Local\Programs\Microsoft VS Code\bin;G:\arduino-cli_0.21.1_Windows_64bit;C:\MinGW\bin;C:\flutter\bin;C:\Users\mahmu\.dotnet\tools;C:\Espressif/tools/xtensa-esp32-elf-clang/esp-14.0.0-20220415-x86_64-pc-windows-msvc/bin/;C:\Users\mahmu/AppData/Local/Programs/jaguar;C:\Espressif\tools\idf-exe\1.0.3;C:\Users\mahmu\esp\Espressif/tools/xtensa-esp32-elf-clang/esp-14.0.0-20220415-x86_64-pc-windows-msvc/bin/;C:\Users\mahmu\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Users\mahmu\AppData\Roaming\npm
 # environment
 ZES_ENABLE_SYSMAN = 1
 # environment
@@ -174,7 +173,7 @@ GNUMAKEFLAGS :=
 # environment
 OS = Windows_NT
 # environment
-PLATFORMIO_PATH = C:\Users\mahmu\.platformio\python3;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet\;C:\tools\dart-sdk;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\mahmu\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Users\mahmu\.cargo\bin;C:\Users\mahmu\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\mahmu\AppData\Local\Programs\Python\Python39\;C:\Users\mahmu\AppData\Local\Microsoft\WindowsApps;C:\Users\mahmu\AppData\Local\Programs\Microsoft VS Code\bin;G:\arduino-cli_0.21.1_Windows_64bit;C:\MinGW\bin;C:\flutter\bin;C:\Users\mahmu\.dotnet\tools;C:\Users\mahmu\AppData\Roaming\npm;C:\Espressif/tools/xtensa-esp32-elf-clang/esp-14.0.0-20220415-x86_64-pc-windows-msvc/bin/;C:\Users\mahmu/AppData/Local/Programs/jaguar;C:\Espressif\tools\idf-exe\1.0.3;C:\Users\mahmu\esp\Espressif/tools/xtensa-esp32-elf-clang/esp-14.0.0-20220415-x86_64-pc-windows-msvc/bin/;C:\Users\mahmu\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet\;C:\tools\dart-sdk;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\mahmu\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Users\mahmu\.cargo\bin;C:\Users\mahmu\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\mahmu\AppData\Local\Programs\Python\Python39\;C:\Users\mahmu\AppData\Local\Microsoft\WindowsApps;C:\Users\mahmu\AppData\Local\Programs\Microsoft VS Code\bin;G:\arduino-cli_0.21.1_Windows_64bit;C:\MinGW\bin;C:\flutter\bin;C:\Users\mahmu\.dotnet\tools;C:\Users\mahmu\AppData\Roaming\npm;C:\Espressif/tools/xtensa-esp32-elf-clang/esp-14.0.0-20220415-x86_64-pc-windows-msvc/bin/;C:\Users\mahmu/AppData/Local/Programs/jaguar;C:\Espressif\tools\idf-exe\1.0.3;C:\Users\mahmu\esp\Espressif/tools/xtensa-esp32-elf-clang/esp-14.0.0-20220415-x86_64-pc-windows-msvc/bin/;C:\Users\mahmu\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;
+PLATFORMIO_PATH = C:\Users\mahmu\.platformio\python3;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet\;C:\tools\dart-sdk;C:\Program Files\Git\cmd;C:\Users\mahmu\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Program Files\nodejs\;C:\Users\mahmu\.cargo\bin;C:\Users\mahmu\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\mahmu\AppData\Local\Programs\Python\Python39\;C:\Users\mahmu\AppData\Local\Microsoft\WindowsApps;C:\Users\mahmu\AppData\Local\Programs\Microsoft VS Code\bin;G:\arduino-cli_0.21.1_Windows_64bit;C:\MinGW\bin;C:\flutter\bin;C:\Users\mahmu\.dotnet\tools;C:\Espressif/tools/xtensa-esp32-elf-clang/esp-14.0.0-20220415-x86_64-pc-windows-msvc/bin/;C:\Users\mahmu/AppData/Local/Programs/jaguar;C:\Espressif\tools\idf-exe\1.0.3;C:\Users\mahmu\esp\Espressif/tools/xtensa-esp32-elf-clang/esp-14.0.0-20220415-x86_64-pc-windows-msvc/bin/;C:\Users\mahmu\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Users\mahmu\AppData\Roaming\npm;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet\;C:\tools\dart-sdk;C:\Program Files\Git\cmd;C:\Users\mahmu\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Program Files\nodejs\;C:\Users\mahmu\.cargo\bin;C:\Users\mahmu\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\mahmu\AppData\Local\Programs\Python\Python39\;C:\Users\mahmu\AppData\Local\Microsoft\WindowsApps;C:\Users\mahmu\AppData\Local\Programs\Microsoft VS Code\bin;G:\arduino-cli_0.21.1_Windows_64bit;C:\MinGW\bin;C:\flutter\bin;C:\Users\mahmu\.dotnet\tools;C:\Espressif/tools/xtensa-esp32-elf-clang/esp-14.0.0-20220415-x86_64-pc-windows-msvc/bin/;C:\Users\mahmu/AppData/Local/Programs/jaguar;C:\Espressif\tools\idf-exe\1.0.3;C:\Users\mahmu\esp\Espressif/tools/xtensa-esp32-elf-clang/esp-14.0.0-20220415-x86_64-pc-windows-msvc/bin/;C:\Users\mahmu\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Users\mahmu\AppData\Roaming\npm
 # makefile
 .DEFAULT_GOAL := 
 # default
@@ -206,7 +205,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\mahmu\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\cbd65a7f3880dfc7ce68caff7ee16790-1.67.2-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\cbd65a7f3880dfc7ce68caff7ee16790-1.68.1-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -217,10 +216,6 @@ SUFFIXES :=
 ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
-# environment
-VSCODE_CLI = 1
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
@@ -228,7 +223,7 @@ PROCESSOR_REVISION = 4e03
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
 # variable set hash-table stats:
-# Load=107/1024=10%, Rehash=0, Collisions=12/131=9%
+# Load=105/1024=10%, Rehash=0, Collisions=12/129=9%
 
 # Pattern-specific Variable Values
 
@@ -236,9 +231,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
 
 # Directories
 
-# . (key d:/all_learning/programming/cpp_programming_playground/object_oriented_programming, mtime 1654410127): 11 files, no impossibilities.
+# . (key d:/all_learning/programming/cpp_programming_playground/object_oriented_programming, mtime 1655608908): 23 files, no impossibilities.
 
-# 11 files, no impossibilities in 1 directories.
+# 23 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -295,13 +290,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffer 
-s: 1 (0) / strings = 18 / storage = 217 B / avg = 12 B
-# current buf: size = 8174 B / used = 217 B / count = 18 / avg = 12 B
+# strcache buffers: 1 (0) / strings = 30 / storage = 528 B / avg = 17 B
+# current buf: size = 8174 B / used = 528 B / count = 30 / avg = 17 B
 
-# strcache performance: lookups = 21 / hit rate = 14%
+# strcache performance: lookups = 33 / hit rate = 9%
 # hash-table stats:
-# Load=18/8192=0%, Rehash=0, Collisions=0/21=0%
-# Finished Make data base on Sun Jun 05 12:22:10 2022
+# Load=30/8192=0%, Rehash=0, Collisions=0/33=0%
+# Finished Make data base on Tue Jun 21 09:23:05 2022
 
  
